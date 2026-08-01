@@ -18,3 +18,33 @@ a {
 a:hover {
   color: var(--primary-hover);
 }
+/* 全局字体与行间距优化 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.75;
+  color: #2c3e50;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #1a2533;
+}
+/* 内容区卡片柔和阴影 */
+.page__content, .sidebar__right, .archive__item {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* 全局图片圆角 */
+img {
+  border-radius: 6px;
+}
+/* 粘性顶部导航栏 */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid #eee;
+}
