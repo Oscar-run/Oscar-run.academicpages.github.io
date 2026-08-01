@@ -9,10 +9,14 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Oscar / 孙国新课题组"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "孙国新"
+description              : &description "分离与纯化技术：新萃取剂的合成以及萃取分离贵金属、重金属、稀土等工艺；
+
+• 精细化工：精细有机、无机化学品的制备工艺，以及利用萃取、精馏等技术分离回收化工废料工艺研究；
+
+• 功能材料：高纯材料和新催化材料的制备规律及应用研究。"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
